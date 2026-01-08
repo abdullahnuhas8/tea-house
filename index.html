@@ -23,11 +23,112 @@
       }
     }
   </script>
+  <style>
+    .font-manrope{
+  font-family: "Manrope", sans-serif;
+}
 
-
-
+  </style>
 </head>
+
 <body>
+  <main class="font-manrope max-w-screen-xl mx-auto px-16 pt-10 lg:px-16">
+    <section>
+      <!-- text container -->
+      <div class="md:flex items-center justify-between gap-10">
+        <div class="md:w-1/2">
+        <h1 class="text-5xl md:text-7xl font-extrabold ">
+          It's good <br>
+          tea time at The <br>
+          Tea House
+        </h1>
+        <p class="text-lg md:text-xl text-gray-400 mt-6 max-w-xl"> 
+          Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
+        </p>
+        <button class="rounded-[10px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white px-6 py-3 mt-6 hover:from-[#FF0000] hover:to-[#FF8938] flex items-center gap-2">
+          Explore More <i class="fas fa-arrow-right transform -rotate-45"></i>
+        </button>
+      </div>
+      <!-- image container -->
+      <div class="md:relative md:w-1/2 mt-10 md:mt-0">
+        <div class="w-full">
+          <img src="./images/banner.png" alt="">
+        </div>
+        <!-- card -->
+        <div class="md:absolute top-20 md:top-60 flex items-center gap-2 bg-gray-400 md:bg-white shadow-lg rounded-xl md:p-4 w-3/6 md:w-2/8 my-12">
+          <div>
+            <i class="fa-solid fa-star text-amber-500 text-3xl"></i>
+          </div>
+          <div>
+            <h2 class="text-2xl">5.00</h2>
+            <p class="md:text-gray-400 text-black">Trust pilot ratings</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
     
+    <section class="mt-[100px] max-w-7xl mx-auto px-6">
+      <!-- headlines -->
+      <div>
+        <h2 class="text-4xl font-extrabold text-center">Our Featured Products</h2>
+        <p class="text-gray-400 text-center mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+      <!-- product grid -->
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- product card -->
+        <div class="border p-4 rounded-lg hover:shadow-lg flex flex-col items-center text-center">
+          <img src="./images/tea-1.png" alt="" class="w-auto h-48 object-cover rounded-md">
+          <h3 class="mt-4 text-lg font-semibold">Milk Tea</h3>
+          <p class="text-gray-400 mt-2">Creamer could be replaced <br> by fresh milk</p>
+        </div>
+        <div class="border p-4 rounded-lg hover:shadow-lg flex flex-col items-center text-center">
+          <img src="./images/tea-2.png" alt="" class="w-auto h-48 object-cover rounded-md">
+          <h3 class="mt-4 text-lg font-semibold">Black Tea</h3>
+          <p class="text-gray-400 mt-2">Creamer could be replaced <br> by fresh milk</p>
+        </div>
+        <div class="border p-4 rounded-lg hover:shadow-lg flex flex-col items-center text-center">
+          <img src="./images/tea-3.png" alt="" class="w-auto h-48 object-cover rounded-md">
+          <h3 class="mt-4 text-lg font-semibold">Lemon Tea</h3>
+          <p class="text-gray-400 mt-2">Creamer could be replaced <br> by fresh milk</p>
+        </div>
+        <div class="border p-4 rounded-lg hover:shadow-lg flex flex-col items-center text-center">
+          <img src="./images/tea-4.png" alt="" class="w-auto h-48 object-cover rounded-md">
+          <h3 class="mt-4 text-lg font-semibold">Green Tea</h3>
+          <p class="text-gray-400 mt-2">Creamer could be replaced <br> by fresh milk</p>
+        </div>
+    </section>
+
+    <!-- product description section -->
+    <section>
+      <div class="mt-20 bg-gray-100 p-8 rounded-lg flex flex-col md:flex-row items-center gap-6">
+        <div class="md:w-1/2">
+          <img src="./images/tea-description.png" alt="" class="w-full h-auto rounded-md">
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-extrabold">Why Choose Our Tea?</h2>
+          <p class="text-gray-600 mt-4">Our tea is sourced from the finest gardens around the world, ensuring a rich and authentic flavor in every cup. We prioritize quality and sustainability in our sourcing practices.</p>
+          <ul class="list-disc list-inside mt-4 text-gray-600">
+            <li>Premium Quality Leaves</li>
+            <li>Wide Variety of Flavors</li>
+            <li>Sustainable Sourcing</li>
+            <li>Exceptional Customer Service</li>
+          </ul>
+          <button class="rounded-[10px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white px-6 py-3 mt-6 hover:from-[#FF0000] hover:to-[#FF8938] flex items-center gap-2">
+            Learn More <i class="fas fa-arrow-right transform -rotate-45"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  </main>
+</body>
+  
 </body>
 </html>
